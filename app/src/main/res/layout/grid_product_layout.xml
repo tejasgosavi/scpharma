@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:elevation="3dp"
+    android:background="@drawable/slider_background"
+    android:layout_margin="2dp"
+    android:paddingTop="18dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintStart_toStartOf="@+id/grid_product_layout"
+    app:layout_constraintTop_toBottomOf="@+id/grid_product_layout">
+
+    <GridView
+        android:id="@+id/grid_product_layout_gridview"
+        android:layout_width="0dp"
+        android:layout_height="400dp"
+        android:background="#FFFFFF"
+        android:horizontalSpacing="1dp"
+        android:numColumns="2"
+        android:verticalSpacing="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
